@@ -1,1 +1,10 @@
-# pltaform
+# platform with the finality to my oun practice
+
+For start the project 
+    npm start
+
+Êfuche
+    Do better the première page.
+    Do the apress page, electronic.
+
+    

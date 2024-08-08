@@ -20,6 +20,9 @@ import white_ribbon from "./white_ribbon.jpg";
 import White1 from "./White1.png";
 import whites from "./whites.jpg";
 import x_icon from "./x_icon.png";
+import facebook_icon from "./facebook_icon.png";
+import instagram_icon from "./instagram_icon.jpg";
+import whatsapp_icon from "./whatsapp_icon.png";
 
 
 let all_product = [
@@ -180,6 +183,24 @@ let all_product = [
         name: "icon x for all the views",
         category: "all",
         image: x_icon,
+    },
+    {
+        id: 23,
+        name: "facebook icon",
+        category: "all",
+        image: facebook_icon,
+    },
+    {
+        id: 24,
+        name: "instagram icon",
+        category: "all",
+        image: instagram_icon,
+    },
+    {
+        id: 25,
+        name: "whatsapp icon",
+        category: "all",
+        image: whatsapp_icon,
     },
 ];
 

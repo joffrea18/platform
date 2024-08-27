@@ -61,3 +61,8 @@
     background: #c7c7c7;
 }
 
+img {
+    border-radius: 60%;
+    /* opacity: 0.52; */
+    max-width: 20vw;
+}

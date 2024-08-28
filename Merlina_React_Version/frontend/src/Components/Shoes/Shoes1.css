@@ -21,11 +21,12 @@
     background: #252525;
 }
 
-.shoes-item {
+
+div.shoes-item{
     margin-top: 50px;
     display: column;
-    /* flex-direction: row; */
-    gap: 3px;
+    align-items: first baseline;
+    gap: 3px; 
     max-width: 20%;
     max-height: 2%;
 }

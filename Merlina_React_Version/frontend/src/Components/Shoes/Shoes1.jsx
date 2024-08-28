@@ -1,6 +1,6 @@
 import React from 'react';
 import './Shoes1.css';
-import shoes_product from '../Assets/shoes.js';
+import individual_sandals from '../Assets/individual_sandals.js';
 import Item from '../Item/Item';
 
 const Shoes1 = () => {
@@ -9,7 +9,7 @@ const Shoes1 = () => {
             <h1>Shoes</h1>
             <hr />
             <div className="shoes-item">
-                {shoes_product.map((item, i) => {
+                {individual_sandals.map((item, i) => {
                     return <Item key={i} id={item.id}
                                 name={item.name} img={item.image}
                                 new_price={item.new_price} old_price={item.old_price} />

@@ -3,8 +3,6 @@
 For start the project 
     npm start
 
-Êfuche
-    Do better the première page.
-    Do the apress page, electronic.
+
 
     

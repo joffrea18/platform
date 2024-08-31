@@ -40,3 +40,73 @@
 body {
   background: rgb(255, 255, 255);
 }
+
+fieldset {
+  margin: 3rem;
+  margin-bottom: 10rem;
+  padding: 5rem;
+  border-radius: 3rem;
+  background-color: rgba(161, 167, 201);
+  max-width: 700px;
+  border-color: blue;
+  border-style: hidden;
+  /* background-image: url('../img/SEITEM-2.png'); */
+}
+
+form h2 {
+  color: white;
+  font-size:xx-large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 2rem;
+}
+
+input {
+  display: grid;
+  justify-content: center;
+  /* background-color:rgba(20, 20, 172, 0.554); */
+  gap: 5rem;
+  padding: 0.3rem;
+  color: white;
+  border-radius: 0.6rem;
+  margin: 0.45rem;
+  max-width:fit-content;
+  place-content: center;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.login Button {
+  border-radius: 20%;
+  font-size:x-large;
+  max-width: fit-content;
+  background-color:blue;
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+
+.contact Button {
+  border-radius: 20%;
+  font-size: x-large;
+  width: 80%;
+  padding: 5%;
+  background-color:blue;
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+label {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 3 rem;
+  margin-bottom: 1rem;
+  /* width: 90%; */
+  /* margin-left: 3rem; */
+}
